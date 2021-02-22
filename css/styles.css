@@ -6006,6 +6006,18 @@ a.close.disabled {
 .carousel-caption {
   position: absolute;
   right: 15%;
+  bottom: 0px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.carousel-caption-b {
+  position: absolute;
+  right: 15%;
   bottom: 20px;
   left: 15%;
   z-index: 10;
@@ -10115,45 +10127,45 @@ header.masthead {
   background: linear-gradient(to bottom, rgba(0, 20, 38, 0.8) 0%, rgba(0, 20, 38, 0.8) 100%), url("../assets/img/bg-masthead-bw.jpg");
   background-position: right;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-size: cover;
 }
 header.research-h {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(0, 20, 38, 0.8) 0%, rgba(0, 20, 38, 0.8) 100%), url("../assets/img/NIH.jpg");
+  background: linear-gradient(to bottom, rgba(0, 20, 38, 0.8) 0%, rgba(0, 20, 38, 0.8) 100%), url("../assets/img/NIH-bw.jpg");
   background-position: right;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-size: cover;
 }
 header.about-me {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(0, 20, 38, 0.8) 0%, rgba(0, 20, 38, 0.8) 100%), url("../assets/img/me-birding.JPG");
+  background: linear-gradient(to bottom, rgba(0, 20, 38, 0.8) 0%, rgba(0, 20, 38, 0.8) 100%), url("../assets/img/me-sc-bw.jpg");
   background-position: right;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-size: cover;
 }
 
 header.connect-with {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(0, 20, 38, 0.8) 0%, rgba(0, 20, 38, 0.8) 100%), url("../assets/img/bldg6.jpg");
+  background: linear-gradient(to bottom, rgba(0, 20, 38, 0.8) 0%, rgba(0, 20, 38, 0.8) 100%), url("../assets/img/tubulin-bw.jpg");
   background-position: right;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-size: cover;
 }
 
 header.resources-h {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(0, 39, 76, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url("../assets/img/books.jpg");
+  background: linear-gradient(to bottom, rgba(0, 39, 76, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url("../assets/img/books-bw.jpg");
   background-position: right;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-size: cover;
 }
 
