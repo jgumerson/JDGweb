@@ -10124,7 +10124,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(0, 20, 38, 0.8) 0%, rgba(0, 20, 38, 0.8) 100%), url("../assets/img/bg-masthead-bw.jpg");
+  background: linear-gradient(to bottom, rgba(0, 20, 38, 0.8) 0%, rgba(0, 20, 38, 0.8) 100%), url("../assets/img/bg-masthead-sm.jpg");
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10179,6 +10179,7 @@ header.masthead h1 {
     min-height: 40rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
+	background: linear-gradient(to bottom, rgba(0, 20, 38, 0.8) 0%, rgba(0, 20, 38, 0.8) 100%), url("../assets/img/bg-masthead-bw.jpg");
 	background-attachment: fixed;
   }
   header.masthead p {
