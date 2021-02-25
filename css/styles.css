@@ -10042,7 +10042,7 @@ hr.light {
 }
 
 .btn {
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .btn-xl {
@@ -10064,13 +10064,13 @@ hr.light {
   transition: background-color 0.2s ease;
 }
 #mainNav .navbar-brand {
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   color: #212529;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   color: #6c757d;
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   font-size: 0.9rem;
   padding: 0.75rem 0;
@@ -10127,8 +10127,9 @@ header.masthead {
   background: linear-gradient(to bottom, rgba(0, 20, 38, 0.8) 0%, rgba(0, 20, 38, 0.8) 100%), url("../assets/img/bg-masthead-bw.jpg");
   background-position: right;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
+  background-attachment: scroll;
+  
 }
 header.research-h {
   padding-top: 10rem;
@@ -10136,7 +10137,7 @@ header.research-h {
   background: linear-gradient(to bottom, rgba(0, 20, 38, 0.8) 0%, rgba(0, 20, 38, 0.8) 100%), url("../assets/img/NIH-bw.jpg");
   background-position: right;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
 }
 header.about-me {
@@ -10145,7 +10146,7 @@ header.about-me {
   background: linear-gradient(to bottom, rgba(0, 20, 38, 0.8) 0%, rgba(0, 20, 38, 0.8) 100%), url("../assets/img/me-sc-bw.jpg");
   background-position: right;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
 }
 
@@ -10155,7 +10156,7 @@ header.connect-with {
   background: linear-gradient(to bottom, rgba(0, 20, 38, 0.8) 0%, rgba(0, 20, 38, 0.8) 100%), url("../assets/img/synapse-bw.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
 }
 
@@ -10165,7 +10166,7 @@ header.resources-h {
   background: linear-gradient(to bottom, rgba(0, 39, 76, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url("../assets/img/books-bw.jpg");
   background-position: right;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
 }
 
@@ -10178,6 +10179,7 @@ header.masthead h1 {
     min-height: 40rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
+	background-attachment: fixed;
   }
   header.masthead p {
     font-size: 1.15rem;
@@ -10189,6 +10191,7 @@ header.masthead h1 {
 @media (min-width: 1200px) {
   header.masthead h1 {
     font-size: 3.5rem;
+    background-attachment: fixed;
   }
 }
 
