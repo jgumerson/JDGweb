@@ -10150,7 +10150,7 @@ header.research-h {
 header.about-me {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(0, 20, 38, 0.8) 0%, rgba(0, 20, 38, 0.8) 100%), url("../assets/img/me-sc-bw.jpg");
+  background: linear-gradient(to bottom, rgba(0, 20, 38, 0.8) 0%, rgba(0, 20, 38, 0.8) 100%), url("../assets/img/MHM-BW.jpg");
   background-position: right;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10160,7 +10160,7 @@ header.about-me {
 header.connect-with {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(0, 20, 38, 0.8) 0%, rgba(0, 20, 38, 0.8) 100%), url("../assets/img/bipolar-PR.jpg");
+  background: linear-gradient(to bottom, rgba(0, 20, 38, 0.8) 0%, rgba(0, 20, 38, 0.8) 100%), url("../assets/img/connect.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
