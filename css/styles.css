@@ -61,7 +61,7 @@ body {
 }
 
 .alt-background1 {
-	background-color: #00274C;
+	background-color: #0B3C5D;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -156,12 +156,12 @@ sup {
 }
 
 a {
-  color: #00274C; /*color of clickable content. Also, social media icons*/
+  color: #0B3C5D; /*color of clickable content. Also, social media icons*/
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #0083ff; /*color of clickable content when you hover*/
+  color: #328CC1; /*color of clickable content when you hover*/
   text-decoration: underline;
 }
 
@@ -492,6 +492,10 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+.img-circle {
+	border-radius: 50%;
 }
 
 .img-thumbnail {
@@ -2634,14 +2638,14 @@ fieldset:disabled a.btn {
 
 .btn-light {
   color: rgba(255, 255, 255, 0.5);
-  background-color: #00274C; /*button color*/
-  border-color: #00274C;
+  background-color: #0B3C5D; /*button color*/
+  border-color: #0B3C5D;
 }
 
 .btn-light:hover {
-  color: #00274C; /*Text on button when hover*/
-  background-color: #ffcb05; /*button color when hover*/
-  border-color: #ffcb05;
+  color: #0B3C5D; /*Text on button when hover*/
+  background-color: #D9B310; /*button color when hover*/
+  border-color: #D9B310;
 }
 
 
@@ -2667,13 +2671,13 @@ fieldset:disabled a.btn {
 
 .btn-dark {
   color: #fff;  /*dark button settings*/
-  background-color: #00274c;
-  border-color: #00274c;
+  background-color: #0B3C5D;
+  border-color: #0B3C5D;
 }
 .btn-dark:hover {  /*dark button settings*/
-  color: #00274C;
-  background-color: #ffcb05;
-  border-color: #ffcb05;
+  color: #0B3C5D;
+  background-color: #D9B310;
+  border-color: #D9B310;
 }
 .btn-dark:focus, .btn-dark.focus {
   color: #fff;
@@ -7695,6 +7699,7 @@ button.bg-dark:focus {
   padding: 0.25rem !important;
 }
 
+
 .pt-1,
 .py-1 {
   padding-top: 0.25rem !important;
@@ -10041,7 +10046,7 @@ html {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: #ffcb05; /*divider line between sections*/
+  border-color: #D9B310; /*divider line between sections*/
 }
 
 hr.light {
@@ -10083,11 +10088,11 @@ hr.light {
   padding: 0.75rem 0;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #00274c; 
+  color: #0B3C5D; 
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-    color: #ffcb05 !important; /*color of active page title*/
-	/* border-bottom: .2rem solid #ffcb05; Puts an underline in the menu for the active page */
+    color: #D9B310 !important; /*color of active page title*/
+	/* border-bottom: .2rem solid; Puts an underline in the menu for the active page */
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -10118,13 +10123,13 @@ hr.light {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
-    color: #ffcb05; /*when scrolling, hover over other pages*/
+    color: #D9B310; /*when scrolling, hover over other pages*/
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
-    color: #00274c; /*nav bar - other page text when scrolling*/
+    color: #0B3C5D; /*nav bar - other page text when scrolling*/
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: #ffcb05; /*color of navbar hover when you're scrolling down the page*/
+    color: #D9B310; /*color of navbar hover when you're scrolling down the page*/
   }
 }
 
@@ -10219,7 +10224,7 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: #00274c; /*Colors the toggle on reserach panels*/
+  background: #0B3C5D; /*Colors the toggle on reserach panels*/
   transition: opacity 0.25s ease;
   text-align: center;
 }
