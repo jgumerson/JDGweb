@@ -10223,8 +10223,8 @@ header.masthead h1 {
   bottom: 0;
   text-align: center;
   opacity: 0;
-  color: #fff;
-  background: #0B3C5D; /*Colors the toggle on reserach panels*/
+  color: #000000;
+  background: #FFF; /*Colors the toggle on research panels*/
   transition: opacity 0.25s ease;
   text-align: center;
 }
